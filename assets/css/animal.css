@@ -1,0 +1,12 @@
+:root{
+    --color: #DE744C;
+    --color1: #DEB13C;
+    --color2: #BFD8D2;
+    --color3: #CECFC9;
+    --color4: #FFFFFF;
+    --color5: #F1ECE7;
+}
+
+.barra1{
+    background-image: url(../img/galeria4.jpg);
+}

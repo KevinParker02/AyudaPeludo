@@ -1,0 +1,134 @@
+:root{
+    --color: #DE744C;
+    --color1: #DEB13C;
+    --color2: #BFD8D2;
+    --color3: #CECFC9;
+    --color4: #FFFFFF;
+    --color5: #F1ECE7;
+}
+
+/* Configuré el color de los primero 3 cuadros dela página*/
+.barra1{
+    background-color: var(--color);
+}
+
+/* Modifico los colores del texto de la misma  */
+.text1{
+    /* Font-size es para el tamaño del texto */
+    font-size: 80%; 
+    margin-top: 15px;
+    color: var(--color4);
+}
+
+.ico1{
+    color: var(--color4);
+}
+
+/* Configuraciones para el NavBar */
+.barra2{
+    background-color: var(--color1);
+}
+
+.text2{
+    color: var(--color4);
+    text-align: justify;
+}
+
+/* Carrusel */
+.text3{
+    padding-bottom: 1%;
+}
+
+.text3_1{
+    padding-bottom: 25%;
+}
+
+/* Estilo de las cajas */
+.r4{
+    background-color: var(--color2);
+}
+
+.Tit1{
+    text-align: center;
+    padding-top: 3%;
+    color: var(--color4);
+
+}
+
+.n1{
+    display: flex; /* Establece el contenedor como un flex container (de vertical a horzontal) */
+    flex-wrap: wrap; /* Indica que los elementos hijos pueden envolverse (nowrap | wrap | wrap-reverse) */
+    justify-content: center; /* Distribuye los elementos de forma equitativa a lo largo del eje principal (flex-start | flex-end | center | space-between | space-around | space-evenly) */
+    align-items: stretch; /* Centra los elementos verticalmente (flex-start | flex-end | center | baseline | stretch) */
+    padding-bottom: 3%;
+    /* height: 100vh;  Establece la altura del contenedor al 100% del viewport */
+    background-color: var(--color-1) ;   /*Color de fondo del contenedor*/ 
+}
+
+.texto{
+    color: var(--white);
+    font-size: 15px;
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 70px;
+    margin: 35px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 39px -25px rgba(1,5,74,1);
+}
+
+.FotoAni{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.TextAni{
+    text-decoration: none;
+    color: var(--color4);
+    font-size: 25px;
+}
+
+/* Apartado de contacto */
+.r5{
+    background-color: var(--color3);
+}
+
+.Tit2{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: var(--color4);
+    text-align: center;
+}
+
+.ImpText{
+    width: 85%;
+    padding-bottom: 2%;
+    padding-left: 70px;
+}
+
+.ConText{
+    width: 81%;
+}
+
+.PicPort{
+    max-width: 80%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 39px -25px rgba(1,5,74,1);
+}
+
+/* Final de página */
+.barra3{
+    background-color: var(--color5);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.Final{
+    justify-content: center;
+}
